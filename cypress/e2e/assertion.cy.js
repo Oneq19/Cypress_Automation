@@ -13,9 +13,7 @@ it('learning assertions', () =>{
    cy.get('#query-btn') .invoke('attr','id')
     .should('equal','query-btn')
 
-   cy.get('#query-btn')
-      .should('contain', 'Button')
-      .and('have.class', 'query-btn')
+  
     
     let name = 'fatema'
     expect(name).to.be.equal('fatema')
